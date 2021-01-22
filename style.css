@@ -41,7 +41,7 @@
 }
 .move-intro img{
     vertical-align: top;
-    min-width: auto;
+    /* min-width: auto; */
     width: 100vw;
   max-width: auto;
   backface-visibility: hidden;
@@ -81,6 +81,7 @@
     transform: translateY(-100%);
     -webkit-transition-delay: 0s;
     transition-delay: 0s;
+    margin: 10px;
 }
 .move-intro a{
     position: absolute;
@@ -144,5 +145,9 @@ footer .primary{
     background-color: #1c2331 ;    
 }
 footer .container{
+  margin: 25px;
     color: whitesmoke;
+}
+footer .copyright{
+  text-align: center;
 }
