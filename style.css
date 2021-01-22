@@ -42,6 +42,7 @@
 .move-intro img{
     vertical-align: top;
     min-width: auto;
+    width: 100vw;
   max-width: auto;
   backface-visibility: hidden;
 }
@@ -57,7 +58,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.move-intro h1,.move-intro h5{
+.move-intro h1,.move-intro h3{
     text-transform: uppercase;
     margin: 0;
     opacity: 0;
@@ -72,7 +73,7 @@
   transition-delay: 0.05s;
   margin-bottom: 5px;
 }
-.move-intro h5{
+.move-intro h3{
     font-weight: normal;
     background-color: #ae895d;
     padding: 3px 10px;
@@ -94,7 +95,7 @@
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
 }
-.move-intro:hover h1, .move-intro:hover h5{
+.move-intro:hover h1, .move-intro:hover h3{
   -webkit-transform: translateY(0);
   transform: translateY(0);
   opacity: 1;
@@ -104,12 +105,22 @@
     -webkit-transition-delay: 0.3s;
   transition-delay: 0.3s;
 }
-.move-intro:hover h5{
+.move-intro:hover h3{
     -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
 }
+.move-intro hr{
+  width: 500px;
+  color: red;
+  border: double;
+  margin: 20px;
+  
+}
 
 /* main section */
+.col-row-1 h4{
+  float: left;
+}
 .develop{
     text-align: center!important;
 }
@@ -119,6 +130,14 @@
 section h2{
     text-align: center;
     text-transform: uppercase;
+}
+
+section img{
+  /* margin: auto; */
+  width: 300px;
+}
+#html .memo,#css .memo, #js .memo{
+  float:inline-start;
 }
 /* footer */
 footer .primary{
