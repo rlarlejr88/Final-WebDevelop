@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+form{
+    text-align: center;
+    margin: 100px;
+    padding: 20px;
+    contain: content;
+}
+button{
+    margin: 15px;
+}
+input{
+    margin: 10px;
+}
+body{
+    background: linear-gradient(to right, yellow, red, purple, blue );
+}
