@@ -2,14 +2,16 @@
     margin: 0px;
     padding: 0px;
 }
+@import url(/dist/dist/scss/scss1.css);
 /* head */
+
 nav ul{
     position: relative;
     margin: 0px;
     padding: 0px;    
 }
 ul li{
-    display: inline;
+    display: inline-flex;
     float: right;
     padding: 15px;
 }
